@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --greyish_blue: rgb(238, 238, 238);
+  --orange: rgb(255, 140, 0);
+  --yellow: rgb(241, 196, 15);
+  --light_grey: rgb(221, 221, 221);
+}
