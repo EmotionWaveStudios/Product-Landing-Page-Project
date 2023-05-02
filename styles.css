@@ -31,6 +31,7 @@ body {
   width: 100%;
   position: fixed;
   padding: 20px 25px;
+  display: flex;
 }
 
 .image_section,
@@ -43,8 +44,11 @@ img {
   padding-left: 10px;
 }
 
-.navbar_section {
+footer ul {
+  padding: 20px 40px 5px 0;
   display: flex;
+  gap: 20px;
+  justify-content: right;
 }
 
 .navbar_section ul {
@@ -124,13 +128,19 @@ img {
 
 .card h3 {
   font-size: 1rem;
-
   background-color: var(--light_grey);
   padding: 15px 15px;
 }
 
 .card h2 {
   padding: 15px 15px;
+}
+
+footer p {
+  padding-right: 20px;
+  padding-bottom: 15px;
+  text-align: right;
+  font-size: 0.9rem;
 }
 
 .card p {
@@ -150,18 +160,4 @@ footer {
   width: 66%;
   margin: 50px auto 0 auto;
   background-color: var(--light_grey);
-}
-
-footer ul {
-  padding: 20px 40px 5px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: right;
-}
-
-footer p {
-  padding-right: 20px;
-  padding-bottom: 15px;
-  text-align: right;
-  font-size: 0.9rem;
 }
