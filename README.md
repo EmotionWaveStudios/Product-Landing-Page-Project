@@ -13,7 +13,7 @@ This is a product landing page showing the prices of different packages
 
 ## Live view
 
-[Product landing page]()
+[Product landing page](https://brilliant-sunshine-c6ed93.netlify.app/)
 
 ## Prerequisite
 
