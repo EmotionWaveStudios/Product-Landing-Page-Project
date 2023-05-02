@@ -12,7 +12,85 @@
   --light_grey: rgb(221, 221, 221);
 }
 
-.container {
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+body {
   background-color: var(--greyish_blue);
+}
+
+.navbar_section {
+  background-color: var(--greyish_blue);
+  width: 100%;
+  position: fixed;
+  padding: 20px 25px;
+}
+
+.image_section, .link_section{
+  width: 50%;
+}
+
+img {
+  width: 315px;
+  padding-left: 10px;
+}
+
+.navbar_section {
+  display: flex;
+}
+
+.navbar_section ul{
+  display: flex;
+  justify-content: right;
+  gap: 110px;
+  padding-top: 10px;
+  padding-right: 70px;
+}
+
+.submit_email_section{
+  padding-top: 80px;
+  text-align: center;
+}
+
+.submit_email_section h2{
+  font-size: 1.5rem;
+}
+
+.submit_email_section #email {
+  justify-content: center;
+  width: 270px;
+  height: 30px;
+  display: block;
+  margin: 20px auto;
+}
+
+.submit_email_section button {
+  border: none;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: var(--yellow);
+}
+
+.icon_section {
+  padding: 50px 0;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.icon_section .icon{
+  margin: 50px;
+}
+
+.video {
+  text-align: center;
 }
 
